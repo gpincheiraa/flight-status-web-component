@@ -8,6 +8,7 @@
     "lint": "ng lint",
     "build": "ng build --prod --output-hashing=none",
     "package": "cat dist/flight-status-element/{runtime,polyfills,scripts,main}.js | gzip > elements.js.gz",
+    "published": "cat dist/flight-status-element/{runtime,polyfills,scripts,main}.js >> flight-status.js ",
     "serve": "http-server --gzip"
   },
   "dependencies": {
