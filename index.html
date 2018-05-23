@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Custom Button Test Page</title>
+  <script src="elements.js"></script>
+</head>
+
+<body>
+  <flight-status></flight-status>
+
+  <script>
+    const flightStatusEl = document.querySelector('flight-status');
+    
+    flightStatusEl.data = {
+      "flight": "LA600",
+      "date": "2018/05/24",
+      "status": "Scheduled",
+      "origin": {
+        "code": "SCL",
+        "status": "Scheduled",
+        "city": "Santiago",
+        "fullAirport": "Arturo Merino Benitez Airport",
+        "departureDate": "24/05/2018 08:00:00"
+      },
+      "destination": {
+        "code": "LAX",
+        "status": "Scheduled",
+        "city": "Los Angeles",
+        "fullAirport": "Los Angeles International Airport",
+        "arrivalDate": "24/05/2018 07:00:00"
+      },
+      "weather": {
+        "origin": {
+          "temperature": "6.8",
+          "description": "clear sky",
+          "icon": "01n"
+        },
+        "destination": {
+          "temperature": "11.0",
+          "description": "clear sky",
+          "icon": "01n"
+        }
+      }
+    };
+  </script>
+</body>
+
+</html>
