@@ -1,0 +1,12 @@
+<div class="card-wrapper" *ngIf="data">
+    <section class="card">
+        <header>
+        <h1 class="card-header">Origin {{ data.origin.code }}, {{ data.origin.city }} </h1>
+        </header>
+    </section>
+    <section class="card">
+        <header>
+            <h1 class="card-header">Destination {{ data.destination.code }}, {{ data.destination.city }} </h1>
+        </header>
+    </section>
+</div>

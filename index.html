@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Custom Button Test Page</title>
-  <script src="elements.js"></script>
 </head>
 
 <body>
@@ -11,8 +10,7 @@
 
   <script>
     const flightStatusEl = document.querySelector('flight-status');
-    
-    flightStatusEl.data = {
+    const data = {
       "flight": "LA600",
       "date": "2018/05/24",
       "status": "Scheduled",
@@ -43,6 +41,8 @@
         }
       }
     };
+
+    setTimeout(() => flightStatusEl.data = data, 300);
   </script>
 </body>
 

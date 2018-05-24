@@ -10,25 +10,20 @@
       "prefix": "custom",
       "schematics": {
         "@schematics/angular:class": {
-          "spec": false
+          "spec": false,
+          "styleext": "scss"
         },
         "@schematics/angular:component": {
-          "spec": false
-        },
-        "@schematics/angular:directive": {
-          "spec": false
-        },
-        "@schematics/angular:guard": {
-          "spec": false
+          "spec": false,
+          "styleext": "scss"
         },
         "@schematics/angular:module": {
-          "spec": false
-        },
-        "@schematics/angular:pipe": {
-          "spec": false
+          "spec": false,
+          "styleext": "scss"
         },
         "@schematics/angular:service": {
-          "spec": false
+          "spec": false,
+          "styleext": "scss"
         }
       },
       "architect": {

@@ -1,0 +1,24 @@
+.card-wrapper{
+    width: 60vw;
+    overflow: visible;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .card{
+        position: relative;
+        width: 18vw;
+        padding: 16px;
+        margin-bottom: 60px;
+        text-align: center;
+        background-color: #150067;
+        box-sizing: border-box;
+        color: #FFFFFF;
+    }
+    .card-header{
+        padding-bottom: 8px;
+        border-bottom: 1px solid #B30F3B;
+        margin: 0;
+        text-transform: capitalize;
+    }
+}
